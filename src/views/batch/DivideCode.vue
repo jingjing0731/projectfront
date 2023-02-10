@@ -91,7 +91,7 @@ const callDivideCodeApi = () => {
             //新建成功跳转路由
             router.push({ name: "batch-info" ,query: { id: route.query.id }})
         } else {
-            console.error('分配兑换码失败')
+            console.error('分配兑换码失败!')
         }
     })
 }
